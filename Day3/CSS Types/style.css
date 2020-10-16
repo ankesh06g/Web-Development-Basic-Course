@@ -1,0 +1,8 @@
+/* navbar styles */
+span{
+	color: red; 
+	background: #fff; 
+	height: 10px; 
+	width: 100px;  
+	padding: 20px;
+}
