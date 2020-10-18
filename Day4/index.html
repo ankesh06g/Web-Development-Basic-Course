@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<style type="text/css">
+		.card__c{
+			padding: 5px;
+			height: 100%;
+			box-shadow: 13px 10px 21px -10px rgba(212,212,212,0.75);
+		}
+		.card_head{
+			text-align: center;
+			color: #000;
+			font-size: 25px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.card__c .card_img_1{
+			width: 100%;
+			border: 1px solid #CCCCCC;
+		}
+		.card__c .card_img_2{
+			width: 100%;
+			border: 1px solid #CCCCCC;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <a class="navbar-brand" href="#">
+	    <img src="../images/bw.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+	    Site Name
+	  </a>
+
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Link</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">
+	        	<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-app" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M11 2H5a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z"/>
+</svg>
+	        </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-6">
+				<div class="card__c">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card_head">
+									Women's
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-sm-4 col-md-4 p-0">
+								<div style="margin: 5px;">
+									<a href="#">
+										<img class="card_img_1" src="../images/gw.jpg" alt="Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-md-4 p-0">
+								<div style="margin: 5px;">
+									<a href="#">
+										<img class="card_img_1" src="../images/gw.jpg" alt="Image">
+									</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-md-4 p-0">
+								<div style="margin: 5px;">
+									<a href="#">
+										<img class="card_img_1" src="../images/gw.jpg" alt="Image">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div style="text-align: center; text-decoration: underline;">
+									<a href="">Show More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- next col -->
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-12">
+				<h1>Children's</h1>
+			</div>
+			<div class="col-12 col-sm-4 col-md-4">
+				<div class="card__c">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<div class="card_head">
+									Boy's
+								</div>
+							</div>		
+						</div>
+						<div class="row">
+							<div class="col-12 col-sm-6 col-md-6 p-0">
+								<img class="card_img_2" src="../images/gw.jpg" alt="Image">
+							</div>
+							<div class="col-12 col-sm-6 col-md-6 p-0">
+								<img class="card_img_2" src="../images/gw.jpg" alt="Image">
+							</div>
+							<div class="col-12 col-sm-6 col-md-6 p-0">
+								<img class="card_img_2" src="../images/gw.jpg" alt="Image">
+							</div>
+							<div class="col-12 col-sm-6 col-md-6 p-0">
+								<img class="card_img_2" src="../images/gw.jpg" alt="Image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
